@@ -1,0 +1,43 @@
+/* public style */
+:root{
+    --tdColor: #3D8D7A ;
+    --diferent : #B3D8A8 ;
+}
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body , html {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* tabel */
+table{
+    width: 40%;
+    height: 60%;
+}
+
+table td{
+    width: calc(100% / 3);
+    background-color: var(--tdColor);
+    height: 25%;
+    cursor: pointer;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+@media screen and (max-width: 450px) {
+    table{
+        width: 70%;
+        height: 50%;
+    }
+}
