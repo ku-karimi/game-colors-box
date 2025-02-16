@@ -1,8 +1,4 @@
 /* public style */
-:root{
-    --tdColor: #3D8D7A ;
-    --diferent : #B3D8A8 ;
-}
 *{
     box-sizing: border-box;
     margin: 0px;
@@ -16,6 +12,18 @@ body , html {
     justify-content: center;
     align-items: center;
 }
+/* button */
+
+button{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 800;
+    position: absolute;
+    color: snow;
+    border: none;
+    background-color: #3D8D7A;
+    display: block;
+}
 
 /* tabel */
 table{
@@ -25,7 +33,7 @@ table{
 
 table td{
     width: calc(100% / 3);
-    background-color: var(--tdColor);
+    background: #3D8D7A;
     height: 25%;
     cursor: pointer;
     border-radius: 20px;
